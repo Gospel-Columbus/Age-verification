@@ -33,11 +33,11 @@ rl.question('Please enter your age: ', (input) => {
   // Check access and display result
 
     if (age < 18) {
-        console.log("You must be atleast eighteen years old to access to this site.");
+        console.log("You must be atleast eighteen years old to access this site.");
     }
 
     else if (age > 18 && age < 120) {
-        console.log("You are old enough to access to this site.");
+        console.log("You are old enough to access this site.");
     }
 
 
